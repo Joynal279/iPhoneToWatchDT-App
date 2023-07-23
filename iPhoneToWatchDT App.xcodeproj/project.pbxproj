@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F26C539E2A6CAA73005368F9 /* iPhoneToWatchDT_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C539D2A6CAA73005368F9 /* iPhoneToWatchDT_AppApp.swift */; };
+		F26C53A02A6CAA73005368F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C539F2A6CAA73005368F9 /* ContentView.swift */; };
+		F26C53A22A6CAA77005368F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26C53A12A6CAA77005368F9 /* Assets.xcassets */; };
+		F26C53A52A6CAA77005368F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26C53A42A6CAA77005368F9 /* Preview Assets.xcassets */; };
+		F26C53AB2A6CAA77005368F9 /* iPhoneToWatchDT App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F26C53AA2A6CAA77005368F9 /* iPhoneToWatchDT App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F26C53B02A6CAA77005368F9 /* iPhoneToWatchDT_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C53AF2A6CAA77005368F9 /* iPhoneToWatchDT_AppApp.swift */; };
+		F26C53B22A6CAA77005368F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C53B12A6CAA77005368F9 /* ContentView.swift */; };
+		F26C53B42A6CAA79005368F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26C53B32A6CAA79005368F9 /* Assets.xcassets */; };
+		F26C53B72A6CAA79005368F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26C53B62A6CAA79005368F9 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F26C53AC2A6CAA77005368F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26C53922A6CAA73005368F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26C53A92A6CAA77005368F9;
+			remoteInfo = "iPhoneToWatchDT App Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F26C53BD2A6CAA79005368F9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F26C53AB2A6CAA77005368F9 /* iPhoneToWatchDT App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F26C539A2A6CAA73005368F9 /* iPhoneToWatchDT App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhoneToWatchDT App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26C539D2A6CAA73005368F9 /* iPhoneToWatchDT_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneToWatchDT_AppApp.swift; sourceTree = "<group>"; };
+		F26C539F2A6CAA73005368F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F26C53A12A6CAA77005368F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F26C53A42A6CAA77005368F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F26C53AA2A6CAA77005368F9 /* iPhoneToWatchDT App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhoneToWatchDT App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26C53AF2A6CAA77005368F9 /* iPhoneToWatchDT_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneToWatchDT_AppApp.swift; sourceTree = "<group>"; };
+		F26C53B12A6CAA77005368F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F26C53B32A6CAA79005368F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F26C53B62A6CAA79005368F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26C53972A6CAA73005368F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26C53A72A6CAA77005368F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F26C53912A6CAA73005368F9 = {
+			isa = PBXGroup;
+			children = (
+				F26C539C2A6CAA73005368F9 /* iPhoneToWatchDT App */,
+				F26C53AE2A6CAA77005368F9 /* iPhoneToWatchDT App Watch App */,
+				F26C539B2A6CAA73005368F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26C539B2A6CAA73005368F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26C539A2A6CAA73005368F9 /* iPhoneToWatchDT App.app */,
+				F26C53AA2A6CAA77005368F9 /* iPhoneToWatchDT App Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26C539C2A6CAA73005368F9 /* iPhoneToWatchDT App */ = {
+			isa = PBXGroup;
+			children = (
+				F26C539D2A6CAA73005368F9 /* iPhoneToWatchDT_AppApp.swift */,
+				F26C539F2A6CAA73005368F9 /* ContentView.swift */,
+				F26C53A12A6CAA77005368F9 /* Assets.xcassets */,
+				F26C53A32A6CAA77005368F9 /* Preview Content */,
+			);
+			path = "iPhoneToWatchDT App";
+			sourceTree = "<group>";
+		};
+		F26C53A32A6CAA77005368F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F26C53A42A6CAA77005368F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F26C53AE2A6CAA77005368F9 /* iPhoneToWatchDT App Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F26C53AF2A6CAA77005368F9 /* iPhoneToWatchDT_AppApp.swift */,
+				F26C53B12A6CAA77005368F9 /* ContentView.swift */,
+				F26C53B32A6CAA79005368F9 /* Assets.xcassets */,
+				F26C53B52A6CAA79005368F9 /* Preview Content */,
+			);
+			path = "iPhoneToWatchDT App Watch App";
+			sourceTree = "<group>";
+		};
+		F26C53B52A6CAA79005368F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F26C53B62A6CAA79005368F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26C53992A6CAA73005368F9 /* iPhoneToWatchDT App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26C53BE2A6CAA79005368F9 /* Build configuration list for PBXNativeTarget "iPhoneToWatchDT App" */;
+			buildPhases = (
+				F26C53962A6CAA73005368F9 /* Sources */,
+				F26C53972A6CAA73005368F9 /* Frameworks */,
+				F26C53982A6CAA73005368F9 /* Resources */,
+				F26C53BD2A6CAA79005368F9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26C53AD2A6CAA77005368F9 /* PBXTargetDependency */,
+			);
+			name = "iPhoneToWatchDT App";
+			productName = "iPhoneToWatchDT App";
+			productReference = F26C539A2A6CAA73005368F9 /* iPhoneToWatchDT App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F26C53A92A6CAA77005368F9 /* iPhoneToWatchDT App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26C53BA2A6CAA79005368F9 /* Build configuration list for PBXNativeTarget "iPhoneToWatchDT App Watch App" */;
+			buildPhases = (
+				F26C53A62A6CAA77005368F9 /* Sources */,
+				F26C53A72A6CAA77005368F9 /* Frameworks */,
+				F26C53A82A6CAA77005368F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPhoneToWatchDT App Watch App";
+			productName = "iPhoneToWatchDT App Watch App";
+			productReference = F26C53AA2A6CAA77005368F9 /* iPhoneToWatchDT App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26C53922A6CAA73005368F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F26C53992A6CAA73005368F9 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F26C53A92A6CAA77005368F9 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F26C53952A6CAA73005368F9 /* Build configuration list for PBXProject "iPhoneToWatchDT App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F26C53912A6CAA73005368F9;
+			productRefGroup = F26C539B2A6CAA73005368F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26C53992A6CAA73005368F9 /* iPhoneToWatchDT App */,
+				F26C53A92A6CAA77005368F9 /* iPhoneToWatchDT App Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26C53982A6CAA73005368F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26C53A52A6CAA77005368F9 /* Preview Assets.xcassets in Resources */,
+				F26C53A22A6CAA77005368F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26C53A82A6CAA77005368F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26C53B72A6CAA79005368F9 /* Preview Assets.xcassets in Resources */,
+				F26C53B42A6CAA79005368F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26C53962A6CAA73005368F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26C53A02A6CAA73005368F9 /* ContentView.swift in Sources */,
+				F26C539E2A6CAA73005368F9 /* iPhoneToWatchDT_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26C53A62A6CAA77005368F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26C53B22A6CAA77005368F9 /* ContentView.swift in Sources */,
+				F26C53B02A6CAA77005368F9 /* iPhoneToWatchDT_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F26C53AD2A6CAA77005368F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26C53A92A6CAA77005368F9 /* iPhoneToWatchDT App Watch App */;
+			targetProxy = F26C53AC2A6CAA77005368F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F26C53B82A6CAA79005368F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F26C53B92A6CAA79005368F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F26C53BB2A6CAA79005368F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoneToWatchDT App Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "iPhoneToWatchDT App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.JoynalAbedin.iPhoneToWatchDT-App";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoynalAbedin.iPhoneToWatchDT-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F26C53BC2A6CAA79005368F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoneToWatchDT App Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "iPhoneToWatchDT App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.JoynalAbedin.iPhoneToWatchDT-App";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoynalAbedin.iPhoneToWatchDT-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F26C53BF2A6CAA79005368F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoneToWatchDT App/Preview Content\"";
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "iPhoneToWatchDT App";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoynalAbedin.iPhoneToWatchDT-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F26C53C02A6CAA79005368F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoneToWatchDT App/Preview Content\"";
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "iPhoneToWatchDT App";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoynalAbedin.iPhoneToWatchDT-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26C53952A6CAA73005368F9 /* Build configuration list for PBXProject "iPhoneToWatchDT App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26C53B82A6CAA79005368F9 /* Debug */,
+				F26C53B92A6CAA79005368F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26C53BA2A6CAA79005368F9 /* Build configuration list for PBXNativeTarget "iPhoneToWatchDT App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26C53BB2A6CAA79005368F9 /* Debug */,
+				F26C53BC2A6CAA79005368F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26C53BE2A6CAA79005368F9 /* Build configuration list for PBXNativeTarget "iPhoneToWatchDT App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26C53BF2A6CAA79005368F9 /* Debug */,
+				F26C53C02A6CAA79005368F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26C53922A6CAA73005368F9 /* Project object */;
+}
