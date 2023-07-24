@@ -16,6 +16,7 @@
 		F26C53B22A6CAA77005368F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C53B12A6CAA77005368F9 /* ContentView.swift */; };
 		F26C53B42A6CAA79005368F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26C53B32A6CAA79005368F9 /* Assets.xcassets */; };
 		F26C53B72A6CAA79005368F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26C53B62A6CAA79005368F9 /* Preview Assets.xcassets */; };
+		F26C53C22A6CB2D6005368F9 /* ContentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C53C12A6CB2D5005368F9 /* ContentVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F26C53B12A6CAA77005368F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F26C53B32A6CAA79005368F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F26C53B62A6CAA79005368F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F26C53C12A6CB2D5005368F9 /* ContentVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				F26C539F2A6CAA73005368F9 /* ContentView.swift */,
 				F26C53A12A6CAA77005368F9 /* Assets.xcassets */,
 				F26C53A32A6CAA77005368F9 /* Preview Content */,
+				F26C53C12A6CB2D5005368F9 /* ContentVM.swift */,
 			);
 			path = "iPhoneToWatchDT App";
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F26C53C22A6CB2D6005368F9 /* ContentVM.swift in Sources */,
 				F26C53A02A6CAA73005368F9 /* ContentView.swift in Sources */,
 				F26C539E2A6CAA73005368F9 /* iPhoneToWatchDT_AppApp.swift in Sources */,
 			);
@@ -396,7 +400,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.5;
 			};
 			name = Debug;
 		};
@@ -427,7 +431,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.5;
 			};
 			name = Release;
 		};
@@ -449,7 +453,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +486,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
