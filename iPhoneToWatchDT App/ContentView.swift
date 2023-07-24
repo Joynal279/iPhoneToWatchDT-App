@@ -14,6 +14,9 @@ struct ContentView: View {
     var body: some View {
         VStack{
             Text("Reachable")
+                .onTapGesture {
+                    model.send(message: ["iPhone":  "Hey Joynal Vai"])
+                }
         }
     }
 }
