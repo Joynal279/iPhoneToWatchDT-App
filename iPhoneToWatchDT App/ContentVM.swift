@@ -10,7 +10,7 @@ import UIKit
 import SwiftUI
 import WatchConnectivity
 
-class ContentVM: NSObject, ObservableObject {
+class PhoneVM: NSObject, ObservableObject {
     
     private let session: WCSession
     
@@ -43,7 +43,7 @@ class ContentVM: NSObject, ObservableObject {
     
 }
 
-extension ContentVM: WCSessionDelegate {
+extension PhoneVM: WCSessionDelegate {
     
     func send(message: [String: Any]) -> Void {
         session.sendMessage(message, replyHandler: nil) { error in

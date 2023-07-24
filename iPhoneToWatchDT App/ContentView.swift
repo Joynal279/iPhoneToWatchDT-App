@@ -9,13 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var model = ContentVM()
+    var vm = PhoneVM()
     
     var body: some View {
         VStack{
             Text("Reachable")
                 .onTapGesture {
-                    model.send(message: ["iPhone":  "Hey Joynal Vai"])
+                    vm.send(message: ["iPhone":  "Hey Joynal Vai"])
                 }
         }
     }
