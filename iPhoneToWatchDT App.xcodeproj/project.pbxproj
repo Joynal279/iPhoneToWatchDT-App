@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F26C539E2A6CAA73005368F9 /* iPhoneToWatchDT_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C539D2A6CAA73005368F9 /* iPhoneToWatchDT_AppApp.swift */; };
-		F26C53A02A6CAA73005368F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C539F2A6CAA73005368F9 /* ContentView.swift */; };
+		F26C53A02A6CAA73005368F9 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C539F2A6CAA73005368F9 /* PhoneView.swift */; };
 		F26C53A22A6CAA77005368F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26C53A12A6CAA77005368F9 /* Assets.xcassets */; };
 		F26C53A52A6CAA77005368F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26C53A42A6CAA77005368F9 /* Preview Assets.xcassets */; };
 		F26C53AB2A6CAA77005368F9 /* iPhoneToWatchDT App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F26C53AA2A6CAA77005368F9 /* iPhoneToWatchDT App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F26C53B02A6CAA77005368F9 /* iPhoneToWatchDT_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C53AF2A6CAA77005368F9 /* iPhoneToWatchDT_AppApp.swift */; };
-		F26C53B22A6CAA77005368F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C53B12A6CAA77005368F9 /* ContentView.swift */; };
+		F26C53B22A6CAA77005368F9 /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C53B12A6CAA77005368F9 /* WatchView.swift */; };
 		F26C53B42A6CAA79005368F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26C53B32A6CAA79005368F9 /* Assets.xcassets */; };
 		F26C53B72A6CAA79005368F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26C53B62A6CAA79005368F9 /* Preview Assets.xcassets */; };
-		F26C53C22A6CB2D6005368F9 /* ContentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C53C12A6CB2D5005368F9 /* ContentVM.swift */; };
+		F26C53C22A6CB2D6005368F9 /* PhoneVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C53C12A6CB2D5005368F9 /* PhoneVM.swift */; };
 		F2DFE7382A6E095C00FD8279 /* WatchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFE7362A6E095C00FD8279 /* WatchVM.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,15 +47,15 @@
 /* Begin PBXFileReference section */
 		F26C539A2A6CAA73005368F9 /* iPhoneToWatchDT App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhoneToWatchDT App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26C539D2A6CAA73005368F9 /* iPhoneToWatchDT_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneToWatchDT_AppApp.swift; sourceTree = "<group>"; };
-		F26C539F2A6CAA73005368F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F26C539F2A6CAA73005368F9 /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
 		F26C53A12A6CAA77005368F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F26C53A42A6CAA77005368F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F26C53AA2A6CAA77005368F9 /* iPhoneToWatchDT App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhoneToWatchDT App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26C53AF2A6CAA77005368F9 /* iPhoneToWatchDT_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneToWatchDT_AppApp.swift; sourceTree = "<group>"; };
-		F26C53B12A6CAA77005368F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F26C53B12A6CAA77005368F9 /* WatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
 		F26C53B32A6CAA79005368F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F26C53B62A6CAA79005368F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F26C53C12A6CB2D5005368F9 /* ContentVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVM.swift; sourceTree = "<group>"; };
+		F26C53C12A6CB2D5005368F9 /* PhoneVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVM.swift; sourceTree = "<group>"; };
 		F2DFE7362A6E095C00FD8279 /* WatchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,10 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				F26C539D2A6CAA73005368F9 /* iPhoneToWatchDT_AppApp.swift */,
-				F26C539F2A6CAA73005368F9 /* ContentView.swift */,
+				F26C539F2A6CAA73005368F9 /* PhoneView.swift */,
 				F26C53A12A6CAA77005368F9 /* Assets.xcassets */,
 				F26C53A32A6CAA77005368F9 /* Preview Content */,
-				F26C53C12A6CB2D5005368F9 /* ContentVM.swift */,
+				F26C53C12A6CB2D5005368F9 /* PhoneVM.swift */,
 			);
 			path = "iPhoneToWatchDT App";
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				F26C53AF2A6CAA77005368F9 /* iPhoneToWatchDT_AppApp.swift */,
-				F26C53B12A6CAA77005368F9 /* ContentView.swift */,
+				F26C53B12A6CAA77005368F9 /* WatchView.swift */,
 				F26C53B32A6CAA79005368F9 /* Assets.xcassets */,
 				F26C53B52A6CAA79005368F9 /* Preview Content */,
 				F2DFE7362A6E095C00FD8279 /* WatchVM.swift */,
@@ -237,8 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26C53C22A6CB2D6005368F9 /* ContentVM.swift in Sources */,
-				F26C53A02A6CAA73005368F9 /* ContentView.swift in Sources */,
+				F26C53C22A6CB2D6005368F9 /* PhoneVM.swift in Sources */,
+				F26C53A02A6CAA73005368F9 /* PhoneView.swift in Sources */,
 				F26C539E2A6CAA73005368F9 /* iPhoneToWatchDT_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,7 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26C53B22A6CAA77005368F9 /* ContentView.swift in Sources */,
+				F26C53B22A6CAA77005368F9 /* WatchView.swift in Sources */,
 				F26C53B02A6CAA77005368F9 /* iPhoneToWatchDT_AppApp.swift in Sources */,
 				F2DFE7382A6E095C00FD8279 /* WatchVM.swift in Sources */,
 			);
