@@ -16,7 +16,7 @@ struct WatchView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Loading Data...")
             Text(vm.getDataFromPhone)
         }
         .padding()

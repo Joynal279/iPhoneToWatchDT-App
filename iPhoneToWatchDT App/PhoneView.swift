@@ -13,7 +13,7 @@ struct PhoneView: View {
     
     var body: some View {
         VStack{
-            Text("Reachable")
+            Text("Sent Data To Watch")
                 .onTapGesture {
                     vm.send(message: ["iPhone":  "Hey Joynal Vai"])
                 }
